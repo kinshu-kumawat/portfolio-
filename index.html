@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kinshu Kumawat — AI Developer</title>
+  <meta name="description" content="Portfolio of Kinshu Kumawat — BCA graduate and AI Developer specializing in AI API integration, React.js, Node.js, and prompt engineering.">
+  <meta name="keywords" content="Kinshu Kumawat, AI Developer, React.js, Node.js, Prompt Engineering, Web Developer, Portfolio, Jaipur">
+  <meta name="author" content="Kinshu Kumawat">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Kinshu Kumawat — AI Developer">
+  <meta property="og:description" content="A BCA graduate turning React, Node.js and prompt engineering into AI-powered web apps.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Dots Grid -->
+  <div class="bg-dots" aria-hidden="true"></div>
+
+  <!-- REST Endpoints Navigation -->
+  <header class="navwrap">
+    <nav class="nav" id="nav" aria-label="Main Navigation">
+      <a href="#hero" class="nav-brand"><span class="k">/</span>kinshu.dev</a>
+      <a class="endpoint active" data-target="hero" href="#hero"><span class="verb get">GET</span>/</a>
+      <a class="endpoint" data-target="about" href="#about"><span class="verb get">GET</span>/about</a>
+      <a class="endpoint" data-target="skills" href="#skills"><span class="verb get">GET</span>/skills</a>
+      <a class="endpoint" data-target="projects" href="#projects"><span class="verb get">GET</span>/projects</a>
+      <a class="endpoint" data-target="education" href="#education"><span class="verb get">GET</span>/education</a>
+      <a class="endpoint" data-target="contact" href="#contact"><span class="verb post">POST</span>/contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">200 OK · jaipur, rajasthan</div>
+        <h1>Kinshu builds AI that <span class="accent">talks back.</span></h1>
+        <p class="lead">A BCA graduate turning React, Node.js and prompt engineering into AI-powered web apps — from conversational product advisors to full transaction flows.</p>
+        <div class="hero-links">
+          <a class="btn primary" href="#projects">See the work</a>
+          <a class="btn" href="mailto:kinshukumawat02@gmail.com">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="chat-panel reveal" aria-label="Live AI Demonstration">
+        <div class="chat-topbar">
+          <span class="pulse" aria-hidden="true"></span>
+          <span>ai-product-advisor · live session</span>
+        </div>
+        <div class="chat-body">
+          <div class="bubble user">Tell me about Kinshu Kumawat.</div>
+          <div class="bubble ai">
+            <span class="label">RESPONSE</span>
+            <span id="typedResponse"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2 class="section-title reveal">Objective <span class="path">/about</span></h2>
+      <div class="system-card reveal">
+        <p>Motivated, detail-oriented BCA graduate aspiring to build a career as an AI Developer. Proficient in HTML, CSS, JavaScript, React.js, Node.js and Java, with hands-on experience building AI-powered web applications — from API integration to prompt-based application design. Eager to apply technical skills toward practical, scalable, user-focused AI solutions while continuously learning.</p>
+      </div>
+
+      <div class="spacer-40"></div>
+
+      <h2 class="section-title reveal section-subtitle">Core competencies</h2>
+      <div class="chip-grid reveal">
+        <div class="chip"><span class="n">01</span>AI Application Development</div>
+        <div class="chip"><span class="n">02</span>AI API Integration</div>
+        <div class="chip"><span class="n">03</span>Problem Solving &amp; Debugging</div>
+        <div class="chip"><span class="n">04</span>Frontend Development (React.js)</div>
+        <div class="chip"><span class="n">05</span>Prompt Engineering</div>
+        <div class="chip"><span class="n">06</span>Performance Optimization</div>
+        <div class="chip"><span class="n">07</span>Backend Development (Node.js, Java)</div>
+        <div class="chip"><span class="n">08</span>RESTful APIs &amp; Integration</div>
+        <div class="chip"><span class="n">09</span>UI/UX Implementation</div>
+        <div class="chip"><span class="n">10</span>JavaScript &amp; Web Technologies</div>
+        <div class="chip"><span class="n">11</span>Anthropic &amp; Groq APIs</div>
+        <div class="chip"><span class="n">12</span>Git, GitHub &amp; Collaboration</div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <h2 class="section-title reveal">Technical skills <span class="path">/skills</span></h2>
+      <div class="json-box reveal">
+        <pre><code><span class="json-punc">{</span>
+<span class="indent"><span class="json-key">"languages"</span><span class="json-punc">:</span> [<span class="json-str">"JavaScript"</span>, <span class="json-str">"HTML"</span>, <span class="json-str">"CSS"</span>, <span class="json-str">"Java (Core & OOP)"</span>]<span class="json-punc">,</span></span>
+<span class="indent"><span class="json-key">"frontend"</span><span class="json-punc">:</span> [<span class="json-str">"React.js"</span>, <span class="json-str">"Tailwind CSS"</span>, <span class="json-str">"Responsive Web Design"</span>]<span class="json-punc">,</span></span>
+<span class="indent"><span class="json-key">"backend"</span><span class="json-punc">:</span> [<span class="json-str">"Node.js"</span>, <span class="json-str">"Java (Core & OOP)"</span>, <span class="json-str">"JDBC (learning)"</span>]<span class="json-punc">,</span></span>
+<span class="indent"><span class="json-key">"ai_development"</span><span class="json-punc">:</span> [<span class="json-str">"AI API Integration"</span>, <span class="json-str">"Prompt Engineering"</span>, <span class="json-str">"Anthropic"</span>, <span class="json-str">"Groq"</span>]<span class="json-punc">,</span></span>
+<span class="indent"><span class="json-key">"database"</span><span class="json-punc">:</span> [<span class="json-str">"SQL (learning)"</span>]<span class="json-punc">,</span></span>
+<span class="indent"><span class="json-key">"tools"</span><span class="json-punc">:</span> [<span class="json-str">"VS Code"</span>, <span class="json-str">"Git"</span>, <span class="json-str">"GitHub"</span>]<span class="json-punc">,</span></span>
+<span class="indent"><span class="json-key">"other"</span><span class="json-punc">:</span> [<span class="json-str">"REST APIs"</span>, <span class="json-str">"UI Development"</span>, <span class="json-str">"Web Deployment (basics)"</span>]</span>
+<span class="json-punc">}</span></code></pre>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <h2 class="section-title reveal">Projects <span class="path">/projects</span></h2>
+      <div class="projects-list">
+        <article class="proj-card reveal">
+          <div class="proj-top">
+            <h3>AI Product Advisor</h3>
+            <div class="stack-tags">
+              <span class="tag">React.js</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Anthropic</span>
+              <span class="tag">Groq</span>
+            </div>
+          </div>
+          <ul>
+            <li>Built an AI-powered product recommendation web app that understands user requirements and generates relevant suggestions</li>
+            <li>Integrated AI APIs to power requirement-based, conversational recommendations through a responsive, user-friendly interface</li>
+          </ul>
+        </article>
+
+        <article class="proj-card reveal">
+          <div class="proj-top">
+            <h3>ATM Machine System</h3>
+            <div class="stack-tags">
+              <span class="tag">React.js</span>
+              <span class="tag">HTML, CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+          <ul>
+            <li>Developed an ATM system with deposit, withdrawal and balance inquiry functionality</li>
+            <li>Built reusable UI components and managed transaction flows with React.js and JavaScript</li>
+            <li>Organized project tasks into clear modules for structured, timely development</li>
+          </ul>
+        </article>
+
+        <article class="proj-card reveal">
+          <div class="proj-top">
+            <h3>Navis Landing Page</h3>
+            <div class="stack-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+          <ul>
+            <li>Designed and developed a responsive landing page with a modern user interface</li>
+            <li>Implemented clean layouts and responsive design using HTML and CSS</li>
+          </ul>
+        </article>
+
+        <article class="proj-card reveal">
+          <div class="proj-top">
+            <h3>Apple Landing Page</h3>
+            <div class="stack-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+          </div>
+          <ul>
+            <li>Developed an Apple-inspired landing page focused on modern UI design</li>
+            <li>Recreated responsive layouts and styling using HTML and CSS</li>
+          </ul>
+        </article>
+
+        <article class="proj-card reveal">
+          <div class="proj-top">
+            <h3>Website Clone</h3>
+            <div class="stack-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+          <ul>
+            <li>Developed a responsive website clone to strengthen frontend development skills</li>
+            <li>Implemented layouts, navigation and interactive UI elements using JavaScript</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education">
+      <h2 class="section-title reveal">Education <span class="path">/education</span></h2>
+      <div class="edu-card reveal">
+        <div>
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p>University of Rajasthan</p>
+        </div>
+        <span class="edu-date">2023 – 2026</span>
+      </div>
+
+      <div class="spacer-40"></div>
+
+      <h2 class="section-title reveal section-subtitle">Certification</h2>
+      <div class="cert-card reveal">
+        <div class="cert-badge" aria-label="Verified">✓</div>
+        <div>
+          <h3>Full Stack Java with AI</h3>
+          <p>AU Ignite Future Skills Academy — hands-on frontend, backend, databases &amp; AI concepts</p>
+        </div>
+        <span class="yr">2026</span>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2 class="section-title reveal">Contact <span class="path">/contact</span></h2>
+      <div class="post-box reveal">
+        <div class="post-head"><span class="m">POST</span> /contact HTTP/1.1</div>
+        <div class="post-body">
+          <span class="json-bracket">{</span><br>
+          &nbsp;&nbsp;<span class="json-key">"email"</span>: <a href="mailto:kinshukumawat02@gmail.com">"kinshukumawat02@gmail.com"</a>,<br>
+          &nbsp;&nbsp;<span class="json-key">"phone"</span>: <a href="tel:+918003537013">"+91 80035 37013"</a>,<br>
+          &nbsp;&nbsp;<span class="json-key">"location"</span>: <span class="json-str">"Jaipur, Rajasthan"</span>,<br>
+          &nbsp;&nbsp;<span class="json-key">"linkedin"</span>: <a href="https://linkedin.com/in/kinshu-kumawat-26b8b3384" target="_blank" rel="noopener">"/in/kinshu-kumawat-26b8b3384"</a>,<br>
+          &nbsp;&nbsp;<span class="json-key">"github"</span>: <a href="https://github.com/kinshu-kumawat" target="_blank" rel="noopener">"/kinshu-kumawat"</a><br>
+          <span class="json-bracket">}</span>
+          <div class="send-btn">
+            <a class="btn primary" href="mailto:kinshukumawat02@gmail.com">Send request →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>response streamed by Kinshu Kumawat, 2026</p>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
